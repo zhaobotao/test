@@ -15,6 +15,8 @@ namespace Test.Models
             var userIdentity = await manager.CreateIdentityAsync(this, DefaultAuthenticationTypes.ApplicationCookie);
             // 在此处添加自定义用户声明
             return userIdentity;
+            // 测试一个东西
+            // 并没有这样做
         }
     }
 
